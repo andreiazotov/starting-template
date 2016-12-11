@@ -1,0 +1,25 @@
+{
+  "name": "boilerplate",
+  "version": "1.0.0",
+  "description": "simple pug-sass-js starter",
+  "main": "index.js",
+  "scripts": {
+    "test": ""
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-clean-css": "*",
+    "gulp-concat-css": "*",
+    "gulp-concat": "*",
+    "gulp-autoprefixer": "*",
+    "gulp-pug": "*",
+    "gulp-sass": "*",
+    "gulp-uglify": "*",
+    "gulp-connect": "*",
+    "gulp-livereload": "*",
+    "gulp-notify": "*",
+    "gulp-rename": "*"
+  }
+}
