@@ -1,8 +1,17 @@
-/* from main.sass */
 @import "reset.sass"
 @import "fonts.sass"
 @import "variables.sass"
-@import "header.sass"
-@import "content.sass"
-@import "footer.sass"
-@import "responsive.sass"
+
+body
+  position: relative
+  font-family: monospace
+  font-size: 16px
+  font-weight: 400
+  line-height: 1.6
+  color: #fff
+  min-width: 320px
+  .page-wrapper
+    @import "header.sass"
+    @import "content.sass"
+    @import "footer.sass"
+    @import "responsive.sass"
