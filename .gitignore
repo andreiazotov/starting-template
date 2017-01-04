@@ -1,0 +1,4 @@
+node_modules
+*.psd
+src/fonts
+src/img
