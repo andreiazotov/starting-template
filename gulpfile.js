@@ -36,7 +36,7 @@ var path = {
 
 gulp.task("gulp:connect", function() {
     connect.server({
-        root: "build",
+        root: "dist",
         livereload: true
     });
 });
